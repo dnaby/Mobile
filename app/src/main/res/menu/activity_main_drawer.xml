@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/production">
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_baseline_category_24"
+            android:title="@string/categorie" />
+        <item
+            android:id="@+id/nav_marque"
+            android:icon="@drawable/ic_baseline_bookmark_24"
+            android:title="@string/marque" />
+
+        <item
+            android:id="@+id/nav_produit"
+            android:icon="@drawable/ic_baseline_sell_24"
+            android:title="@string/produit" />
+
+        <item
+            android:id="@+id/nav_stock"
+            android:icon="@drawable/ic_baseline_storage_24"
+            android:title="@string/stock" />
+    </group>
+
+    <group android:id="@+id/vente">
+        <item
+            android:id="@+id/nav_article_commande"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="@string/article_commande" />
+
+        <item
+            android:id="@+id/nav_client"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="@string/client" />
+
+        <item
+            android:id="@+id/nav_commande"
+            android:icon="@drawable/ic_baseline_checklist_24"
+            android:title="@string/commande" />
+
+        <item
+            android:id="@+id/nav_employe"
+            android:icon="@drawable/baseline_supervised_user_circle_24"
+            android:title="@string/employe" />
+
+        <item
+            android:id="@+id/nav_magasin"
+            android:icon="@drawable/ic_baseline_store_24"
+            android:title="@string/magasin" />
+    </group>
+</menu>

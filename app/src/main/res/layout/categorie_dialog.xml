@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="360dp"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/input_category_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/category_name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:autofillHints="name"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/annuler"
+            android:layout_marginEnd="10dp"
+            android:drawableEnd="@drawable/baseline_close_24"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enregistrer"
+            android:drawableEnd="@drawable/baseline_check_24"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+</LinearLayout>

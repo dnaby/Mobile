@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Mobile</string>
+    <string name="nav_header_title">Mouhamadou Naby DIA</string>
+    <string name="nav_header_subtitle">Computer Science Student</string>
+    <string name="nav_header_desc">Profile</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="accueil">Accueil</string>
+    <string name="categorie">Catégorie</string>
+    <string name="marque">Marque</string>
+    <string name="produit">Produit</string>
+    <string name="stock">Stock</string>
+    <string name="article_commande">Article Commandé</string>
+    <string name="client">Client</string>
+    <string name="commande">Commande</string>
+    <string name="employe">Employé</string>
+    <string name="magasin">Magasin</string>
+    <string name="bike_icon">BIKE ICON</string>
+    <string name="editer_categorie">editer catégorie</string>
+    <string name="supprimer_categorie">supprimer catégorie</string>
+    <string name="category_name">Nom de la nouvelle Categorie</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="annuler">Annuler</string>
+    <string name="add_category_fab">ADD CATEGORY FAB</string>
+    <string name="delete_text">Etes-vous sur de vouloir supprimer</string>
+    <string name="non">NON</string>
+    <string name="oui">OUI</string>
+    <string name="marque_icon">MARQUE ICON</string>
+    <string name="expand_and_collapse_button">expand and collapse button</string>
+    <string name="search">Search</string>
+    <string name="check_icon">CHECK ICON</string>
+    <string name="delete">Delete</string>
+    <string name="select_all">Select all</string>
+    <string name="store_icon">STORE ICON</string>
+    <string name="edit">EDIT</string>
+    <string name="phone_icon">PHONE ICON</string>
+    <string name="email_icon">EMAIL ICON</string>
+    <string name="adresse_icon">ADRESSE ICON</string>
+    <string name="ville_icon">VILLE ICON</string>
+    <string name="etat_icon">ETAT ICON</string>
+    <string name="stock_icon">STOCK ICON</string>
+    <string name="actif_icon">ACTIF ICON</string>
+    <string name="manager_icon">MANAGER ICON</string>
+    <string name="commande_icon">COMMANDE ICON</string>
+    <string name="client_icon">CLIENT ICON</string>
+    <string name="status_icon">STATUS ICON</string>
+    <string name="date_commande_icon">DATE COMMANDE ICON</string>
+    <string name="livraion_voulue_icon">LIVRAION VOULUE ICON</string>
+    <string name="livraison_icon">LIVRAISON ICON</string>
+    <string name="vendeur_icon">VENDEUR ICON</string>
+    <string name="article_commande_icon">ARTICLE COMMANDE ICON</string>
+    <string name="remise_icon">REMISE ICON</string>
+    <string name="quantite">Quantité</string>
+
+</resources>

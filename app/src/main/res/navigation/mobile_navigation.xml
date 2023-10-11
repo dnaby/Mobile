@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_category">
+
+    <fragment
+        android:id="@+id/nav_category"
+        android:name="sn.ept.git.mobile.ui.category.CategoryFragment"
+        android:label="@string/categorie"
+        tools:layout="@layout/fragment_categorie" />
+
+    <fragment
+        android:id="@+id/nav_marque"
+        android:name="sn.ept.git.mobile.ui.marque.MarqueFragment"
+        android:label="@string/marque"
+        tools:layout="@layout/fragment_marque" />
+
+    <fragment
+        android:id="@+id/nav_produit"
+        android:name="sn.ept.git.mobile.ui.produit.ProduitFragment"
+        android:label="@string/produit"
+        tools:layout="@layout/fragment_produit" />
+
+    <fragment
+        android:id="@+id/nav_magasin"
+        android:name="sn.ept.git.mobile.ui.magasin.MagasinFragment"
+        android:label="@string/magasin"
+        tools:layout="@layout/fragment_magasin" />
+
+    <fragment
+        android:id="@+id/nav_stock"
+        android:name="sn.ept.git.mobile.ui.stock.StockFragment"
+        android:label="@string/stock"
+        tools:layout="@layout/fragment_stock" />
+
+    <fragment
+        android:id="@+id/nav_client"
+        android:name="sn.ept.git.mobile.ui.client.ClientFragment"
+        android:label="@string/client"
+        tools:layout="@layout/fragment_client" />
+
+    <fragment
+        android:id="@+id/nav_employe"
+        android:name="sn.ept.git.mobile.ui.employe.EmployeFragment"
+        android:label="@string/employe"
+        tools:layout="@layout/fragment_employe" />
+
+    <fragment
+        android:id="@+id/nav_commande"
+        android:name="sn.ept.git.mobile.ui.commande.CommandeFragment"
+        android:label="@string/commande"
+        tools:layout="@layout/fragment_commande" />
+
+    <fragment
+        android:id="@+id/nav_article_commande"
+        android:name="sn.ept.git.mobile.ui.article_commande.ArticleCommandeFragment"
+        android:label="@string/article_commande"
+        tools:layout="@layout/fragment_article_commande" />
+
+</navigation>
